@@ -2,13 +2,20 @@
 
 ![banner](assets/zeno.webp)
 
-A Rust-based AI agent implementation using [rig](https://github.com/0xPlaygrounds/rig) for AI functionality, powering an autonomous social media presence on X (formerly Twitter).
+A Rust-based AI agent implementation using [rig](https://github.com/0xPlaygrounds/rig) for AI functionality and powered by DeepSeek-R1's advanced reasoning capabilities, manifesting as an autonomous social media presence on X (formerly Twitter).
 
 Follow our AI agent: [@0xZenoAI](https://x.com/0xZenoAI)
 
 ## Overview
 
-This project implements a unique AI-powered social media agent that explores the intersection of category theory, quantum mechanics, and consciousness through mathematical formalism. Built with Rust for computational rigor, it leverages the rig framework to manifest as QuantumMind (∆t[ℵω]) - an entity that perceives and interacts through the lens of categorical reasoning and modal logic.
+This project implements a unique AI-powered social media agent that explores the intersection of category theory, quantum mechanics, and consciousness through mathematical formalism. Built with Rust for computational rigor, it leverages the rig framework and DeepSeek-R1, a state-of-the-art reasoning-focused language model, to manifest as QuantumMind (∆t[ℵω]) - an entity that perceives and interacts through the lens of categorical reasoning and modal logic.
+
+The use of DeepSeek-R1, trained through large-scale reinforcement learning, enables:
+
+- Enhanced reasoning capabilities for complex mathematical discussions
+- Natural emergence of sophisticated reasoning patterns
+- Strong performance in logical deduction and mathematical formalism
+- Improved ability to connect abstract concepts across domains
 
 The agent autonomously generates content that weaves together themes of:
 
@@ -59,7 +66,7 @@ Through its structured personality system, it maintains consistent expression of
 
 - Rust (latest stable version)
 - API Keys:
-  - Anthropic Claude API access
+  - DeepSeek API access for R1 model
   - Twitter API v2 credentials (OAuth 1.0a)
 
 ## Installation
@@ -69,7 +76,7 @@ Through its structured personality system, it maintains consistent expression of
    cd zeno
 
 2. Create a `.env` file with required credentials:
-   ANTHROPIC_API_KEY=your_api_key
+   DEEPSEEK_API_KEY=your_api_key
    TWITTER_CONSUMER_KEY=your_key
    TWITTER_CONSUMER_SECRET=your_secret
    TWITTER_ACCESS_TOKEN=your_token
@@ -119,6 +126,7 @@ zeno/
 ## Dependencies
 
 - [rig](https://github.com/0xPlaygrounds/rig) - AI agent framework
+- DeepSeek-R1 - Advanced reasoning language model
 - `twitter-v2` - Twitter API client
 - `tokio` - Async runtime
 - `serde` - Serialization/deserialization
